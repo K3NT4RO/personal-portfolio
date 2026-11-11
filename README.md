@@ -3,7 +3,7 @@
 A responsive personal portfolio website built with HTML and CSS. It introduces me, lists my skills,
 showcases my projects and provides a contact form.
 
-**Live site:** https://YOUR-USERNAME.github.io/personal-portfolio/
+**Live site:** https://K3NT4RO.github.io/personal-portfolio/
 
 ## Sections
 - **Home:** name, profile picture and short introduction
