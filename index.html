@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Gerald Wachira, Software Development student">
+  <title>Gerald Wachira | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="#home" class="logo">Gerald<span>.</span></a>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HOME -->
+  <section id="home" class="hero">
+    <img src="images/profile.jpg" alt="Profile picture of Gerald Wachira" class="profile-pic">
+    <div class="hero-text">
+      <p class="eyebrow">Hello, I am</p>
+      <h1>Gerald Wachira</h1>
+      <p class="lead">A Software Development student in Nairobi who enjoys building clean,
+         useful websites and learning new technologies.</p>
+      <a href="#projects" class="btn">View My Work</a>
+      <a href="#contact" class="btn btn-outline">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <div class="two-col">
+      <div>
+        <h3>Education</h3>
+        <ol class="timeline">
+          <li><strong>2026 - 2030:</strong> Degree in Software Development, KCA University</li>
+          <li><strong>2021 - 2025:</strong> Kenya Certificate of Secondary Education, Nyeri High School</li>
+          <li><strong>2011 - 2021:</strong> Kenya Certificate of Primary Education, Little Wonder School</li>
+        </ol>
+      </div>
+      <div>
+        <h3>Interests</h3>
+        <ul>
+          <li>Web design and development</li>
+          <li>Open-source software</li>
+          <li>Photography</li>
+          <li>Football and hiking</li>
+        </ul>
+        <p>Find me on <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt">
+    <h2>Skills</h2>
+    <table class="skills-table">
+      <thead>
+        <tr><th>Skill</th><th>Level</th><th>Used For</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>HTML5</td><td>Advanced</td><td>Page structure and semantic markup</td></tr>
+        <tr><td>CSS3</td><td>Advanced</td><td>Layouts, Flexbox, Grid, responsive design</td></tr>
+        <tr><td>JavaScript</td><td>Intermediate</td><td>Interactive web pages</td></tr>
+        <tr><td>Git &amp; GitHub</td><td>Intermediate</td><td>Version control and publishing</td></tr>
+        <tr><td>Python</td><td>Intermediate</td><td>Scripting and small applications</td></tr>
+        <tr><td>SQL</td><td>Beginner</td><td>Database queries</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="cards">
+      <article class="card">
+        <img src="images/project1.jpg" alt="Student Portal project preview">
+        <h3>Student Portal</h3>
+        <p>A frames-based college website with a header, side menu, content area and footer.</p>
+        <a href="https://github.com/" target="_blank" rel="noopener" class="card-link">View on GitHub</a>
+      </article>
+      <article class="card">
+        <img src="images/project2.jpg" alt="Weather App project preview">
+        <h3>Weather App</h3>
+        <p>A simple app that shows the weather forecast for any city (proposed project).</p>
+        <a href="https://github.com/" target="_blank" rel="noopener" class="card-link">View on GitHub</a>
+      </article>
+      <article class="card">
+        <img src="images/project3.jpg" alt="Budget Tracker project preview">
+        <h3>Budget Tracker</h3>
+        <p>A tool for students to record daily spending and see monthly totals (proposed project).</p>
+        <a href="https://github.com/" target="_blank" rel="noopener" class="card-link">View on GitHub</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt">
+    <h2>Contact</h2>
+    <p>Email me at <a href="mailto:geraldwachira43@gmail.com">geraldwachira43@gmail.com</a> or use the form below.</p>
+    <form class="contact-form" action="mailto:geraldwachira43@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <label for="subject">Subject</label>
+      <select id="subject" name="subject">
+        <option>General enquiry</option>
+        <option>Project collaboration</option>
+        <option>Job opportunity</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 Gerald Wachira. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
